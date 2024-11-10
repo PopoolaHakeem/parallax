@@ -1,0 +1,85 @@
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 600px) {
+  h2 {
+    font-size: 17px;
+  }
+  p {
+    font-size: 15px;
+    padding: 0 3px !important;
+  }
+  .image-text-1,
+  .image-text-2,
+  .image-text-3,
+  .traversy-text {
+    font-size: 20px;
+  }
+
+  /* SECTION ONE  */
+
+  .first-container {
+    background-attachment: unset;
+  }
+
+  /* SECTION TWO  */
+
+  .second-container {
+    background-attachment: unset;
+  }
+
+  /* SECTION THREE */
+
+  .third-container {
+    background-attachment: unset;
+  }
+
+  /* SECTION FOUR */
+
+  .fourth-container {
+    align-items: unset;
+  }
+
+  /* FOOTER SECTION */
+
+  footer {
+    font-size: 10px;
+    padding: 20px 0;
+  }
+  .muffin-icon {
+    font-size: 9px !important;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  h2 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 17px;
+    padding: 0 3px !important;
+  }
+  .image-text-1,
+  .image-text-2,
+  .image-text-3,
+  .traversy-text {
+    font-size: 25px;
+  }
+
+  footer {
+    font-size: 15px;
+    padding: 20px 0;
+  }
+  .muffin-icon {
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  footer {
+    font-size: 17px;
+    padding: 20px 0;
+  }
+  .muffin-icon {
+    font-size: 12px !important;
+  }
+}
